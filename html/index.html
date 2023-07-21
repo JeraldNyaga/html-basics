@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>My family</title>
+        <link rel="stylesheet" href="/css/stylesheet2.css">
     </head>
     <body>
         <h1>The family</h1>
@@ -11,28 +12,75 @@
         <p>I am actually the son</p>
         <hr>
         <h2>The house</h2>
-        <p>The house has the following rooms</p>
+        <p>Houses are pretty important they are basic needs and everyone needs them</p>
+        <p>The house has the following rooms:</p>
         <ol type="i">
-            <ul>Sitting room</ul>
-            <ul>Bathroom</ul>
-            <ul>Kitchen</ul>
-            <ul>Toilet</ul>
+            <li><a href="sittingroom.html">Sitting room</a></li>
+            <li><a href="bathroom.html">Bathroom</a></li>
+            <li><a href="kitchen.html">Kitchen</a></li>
+            <li><a href="toilet.html">Toilet</a></li>
         </ol>
         <h3>Incase You want to visit us apply below</h3>
         <form>
             <label for="f_name">First name:</label>
-            <input type="text" id="f_name" name="f_name">
+            <input type="text" id="f_name" name="f_name"><br><br>
+
             <label for="l_name">Last name:</label>
-            <input type="text" id="l_name" name="l_name">
-            <label for="e_mail">E-mail</label>
-            <input type="email" id="e_mail" name="e_mail">
+            <input type="text" id="l_name" name="l_name"><br><br>
+
+            <label for="e_mail">E-mail:</label>
+            <input type="email" id="e_mail" name="e_mail"><br><br>
+
             <input type="radio" id="g_male" name="gender">
-            <label for="g_male">Male</label>
+            <label for="g_male">Male</label><br>
             <input type="radio" id="f_gender" name="gender">
-            <label for="f_gender"></label>
-            <br>
+            <label for="f_gender">Female</label>
+            <br><br>
             <input type="submit" value="submit">
             <input type="reset" value="Reset">
-        </form>
+        </form><br>
+        <table>
+            <thead>
+                <tr>
+                    <th><b>Level1</b></th>
+                    <th><b>Level2</b></th>
+                    <th><b>Level3</b></th>
+                    <th><b>Info</b></th>
+                    <th><b>Name</b></th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td rowspan="6">System</td>
+                        <td rowspan="4">System Apps</td>
+                        <td rowspan="3"> SystemEnv</td>
+                        <td>App Test</td>
+                        <td>foo</td>
+                    </tr>
+                    <tr>
+                        <td>App Memory</td>
+                        <td>foo</td>
+                    </tr>
+                    <tr>
+                        <td>App Test</td>
+                        <td>bar</td>
+                    </tr>
+                    <tr>
+                        <td>SystemEnv2</td>
+                        <td>App Test</td>
+                        <td>bar</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">System Memory</td>
+                        <td rowspan="2">Memory Test</td>
+                        <td>Memory func</td>
+                        <td>foo</td>
+                    </tr>
+                    <tr>
+                        <td>Apes Test</td>
+                        <td>foo</td>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
     </body>
 </html>

@@ -7,3 +7,13 @@ th, td, tr{
     border: 1px solid black;
 }
 
+th{
+    background-color: yellow;
+    color: black;
+}
+
+td, tr{
+    background-color: brown;
+    color: chartreuse;
+}
+
